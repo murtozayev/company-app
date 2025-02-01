@@ -1,4 +1,4 @@
-import { configureStore, createSlice, isAction, PayloadAction } from "@reduxjs/toolkit"
+import { configureStore, createSlice,  PayloadAction } from "@reduxjs/toolkit"
 
 interface InitialState {
     authType: "login" | "register"
