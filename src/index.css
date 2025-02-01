@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  height: 100vh;
+  background: url(./images/photo_2025-02-01_10-00-22.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+form {
+  padding: 1vw 3vw;
+}
+
+input {
+  padding: 0 1vw;
+}
+
+.login::after {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.655);
+}
+
+form button {
+  margin-left: 13.5vw;
+  margin-top: 1vw;
+}
+
+nav {
+  padding: 1.5vw 3vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 1vw;
+}
+
+.container {
+  padding: 1vw 2vw;
+  margin: auto;
+  margin-top: 2vw;
+}
+.container {
+  padding: 1vw 2vw;
+  margin: auto;
+}
